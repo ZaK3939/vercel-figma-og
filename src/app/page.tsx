@@ -65,7 +65,7 @@ export default function Home({
           Design your OG image in Figma. This website is using this{' '}
           <a
             // href="https://www.figma.com/file/muVsFH50Ddm45BGtFKEdG5/FigmaImageResponse-Demo?type=design&node-id=1-60&mode=design&t=OPmzvOPfCgO0cLSp-0"
-            href='https://www.figma.com/design/hPCU9QkipbHm6h1kyMIH3W/FigmaImageResponse-Demo-(Copy)?node-id=0-1&t=EDSrd9WxnZYc916m-1'
+            href='https://www.figma.com/file/hPCU9QkipbHm6h1kyMIH3W/FigmaImageResponse-Demo-(Copy)?type=design&node-id=0%3A1&mode=design&t=EDSrd9WxnZYc916m-1'
             target='_blank'
             className='underline'
           >
