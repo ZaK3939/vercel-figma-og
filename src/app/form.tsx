@@ -24,12 +24,12 @@ export const Form = ({ searchParams }: { searchParams: { [key: string]: string }
       <h2 className='sr-only'>OG Image Parameters</h2>
       <div className='flex flex-row gap-2'>
         <div className='grid w-full max-w-sm items-center gap-1.5'>
-          <Label htmlFor='title'>Title</Label>
+          <Label htmlFor='title'>Address</Label>
           <Input
-            id='title'
+            id='address'
             type='text'
-            name='title'
-            defaultValue={searchParams.title || 'A dynamic OG Image'}
+            name='address'
+            defaultValue={searchParams.address || 'A dynamic OG Image'}
             className='text-base md:text-sm'
           />
         </div>
