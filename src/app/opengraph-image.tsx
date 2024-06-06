@@ -12,7 +12,7 @@ export default async function Image() {
   //www.figma.com/design/hPCU9QkipbHm6h1kyMIH3W/FigmaImageResponse-Demo-(Copy)?node-id=1-60&m=dev
   https: return experimental_FigmaImageResponse({
     // url: "https://www.figma.com/file/lbTOxOq2wdE4ZK5vH4ADvb/Changelog-Images?type=design&node-id=3470-8964&mode=design&t=8r7sUnhzATSbyOhL-4",
-    url: 'https://www.figma.com/file/hPCU9QkipbHm6h1kyMIH3W/FigmaImageResponse-Demo-(Copy)?type=design&node-id=0%3A1&mode=design&t=EDSrd9WxnZYc916m-1',
+    url: 'https://www.figma.com/file/hPCU9QkipbHm6h1kyMIH3W/FigmaImageResponse-Demo-(Copy)?type=design&node-id=1206-2&t=Iq1ZnrLEwiv0B7wT-0',
     template: {
       Title: 'A dynamic OG Image',
       Description: {
