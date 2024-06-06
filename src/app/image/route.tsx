@@ -8,7 +8,7 @@ export async function GET(request: Request) {
   ]);
 
   const { searchParams } = new URL(request.url);
-  const title = searchParams.get('title') ?? 'A dynamic OG Image';
+  const address = searchParams.get('address') ?? 'A dynamic OG Image';
   const description = searchParams.get('description') ?? 'Created using a few lines of code';
 
   return experimental_FigmaImageResponse({
@@ -16,8 +16,8 @@ export async function GET(request: Request) {
     // href="https://www.figma.com/file/muVsFH50Ddm45BGtFKEdG5/FigmaImageResponse-Demo?type=design&node-id=1-60&mode=design&t=OPmzvOPfCgO0cLSp-0"
     url: 'https://www.figma.com/file/hPCU9QkipbHm6h1kyMIH3W/FigmaImageResponse-Demo-(Copy)?type=design&node-id=1206-2&mode=design&t=QLpnzMpEb0VROMl6-0',
     template: {
-      Title: {
-        value: title,
+      Address: {
+        value: address,
         props: { centerHorizontally: true },
       },
       Description: {
